@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+svg {
+  background-color: rgb(240, 237, 232);
+}
+
+#navy:hover {
+  fill: navy;
+}
+
+#tooltip {
+  position: absolute;
+  top: 55%;
+  background-color: slategrey;
+  opacity: 0.8;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+  visibility: hidden;
+  height: 60px;
+  width: 140px;
+  padding: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#description {
+  position: relative;
+  top: 290px;
+  left: -340px;
+  transform: rotate(-90deg);
+
+}
